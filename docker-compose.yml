@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - '3000:3000'
+  mongo:
+    image: 'mongodb/mongodb-community-server:7.0.7-ubi8'
+    ports:
+      - '27017:27017'

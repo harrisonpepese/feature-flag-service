@@ -3,3 +3,5 @@ export interface IUserProps {
   email: string;
   password: string;
 }
+
+export interface IUser extends IUserProps {}
